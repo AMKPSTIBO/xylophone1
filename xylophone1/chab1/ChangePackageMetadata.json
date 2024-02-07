@@ -1,0 +1,304 @@
+{
+  "version" : "2",
+  "id" : "chab1",
+  "name" : "chab1",
+  "metadata" : { },
+  "setupGroupId" : "Change1",
+  "uniqueId" : "af4e7cd0-466e-4f96-bd85-0fe0064e839d",
+  "origin" : "xylophone1",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "true",
+  "aspect" : "All",
+  "items" : [ {
+    "name" : "Transformation Lookup Table",
+    "itemURL" : "step://objecttype?id=stibo.ValueSubstitutionTransConfig",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Business Rule Example",
+    "itemURL" : "step://objecttype?id=BusinessRuleExample",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Conditional Attribute",
+    "itemURL" : "step://attribute?id=ATTR_META_ConditionalAttribute",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Completeness Score",
+    "itemURL" : "step://attribute?id=Completeness+Score",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Logo",
+    "itemURL" : "step://objecttype?id=Logo",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Image",
+    "itemURL" : "step://objecttype?id=ProductImage",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Owners Manual",
+    "itemURL" : "step://objecttype?id=OwnersManual",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute",
+    "itemURL" : "step://objecttype?id=stibo.normalattribute",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "arme_desc2",
+    "itemURL" : "step://attribute?id=arme_desc2",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Bulk Update Configuration",
+    "itemURL" : "step://objecttype?id=stibo.BulkUpdateConfig",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "arme_desc3",
+    "itemURL" : "step://attribute?id=arme_desc3",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Language",
+    "itemURL" : "step://dimension?id=Language",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Help Text",
+    "itemURL" : "step://attribute?id=AttributeHelpText",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Configuration",
+    "itemURL" : "step://objecttype?id=Configuration",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Binary",
+    "itemURL" : "step://objecttype?id=Binary",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Installation Manual",
+    "itemURL" : "step://objecttype?id=InstallationManual",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Display Sequence",
+    "itemURL" : "step://attribute?id=DisplaySequence",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "BMEcat Template",
+    "itemURL" : "step://objecttype?id=BMECat_OT_Template",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Auto Classification Rule Set",
+    "itemURL" : "step://objecttype?id=AutoClassificationRuleSet",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Import Manager Configuration",
+    "itemURL" : "step://objecttype?id=stibo.ImportManagerConfig",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "arme_Family",
+    "itemURL" : "step://objecttype?id=arme_Family",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Image Conversion Configuration",
+    "itemURL" : "step://objecttype?id=stibo.ImageConversionConfig",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "XML File",
+    "itemURL" : "step://objecttype?id=XML",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Export Manager Configuration",
+    "itemURL" : "step://objecttype?id=stibo.ExportManagerConfig",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Purpose",
+    "itemURL" : "step://attribute?id=Purpose",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "MSDS",
+    "itemURL" : "step://objecttype?id=MSDS",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Language Root",
+    "itemURL" : "step://dimensionpoint?id=std.lang.all",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Groups",
+    "itemURL" : "step://attributegroup?id=Attribute+group+root",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Validation Error Message",
+    "itemURL" : "step://attribute?id=ValidationErrorMessage",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Assets",
+    "itemURL" : "step://objecttype?id=Asset+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "",
+    "itemURL" : "step://attribute?id=attSourceDebugBROKENV2",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "arme_Product",
+    "itemURL" : "step://objecttype?id=arme_Product",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Icon",
+    "itemURL" : "step://objecttype?id=Icon",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Unknown / Undefined",
+    "itemURL" : "step://objecttype?id=DEFAULT",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "arme_root",
+    "itemURL" : "step://objecttype?id=arme_root",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Video",
+    "itemURL" : "step://objecttype?id=ProductVideo",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Translation Configuration",
+    "itemURL" : "step://objecttype?id=stibo.TranslationConfig",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "arme_attr",
+    "itemURL" : "step://attributegroup?id=arme_attr",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "BMEcat Schema",
+    "itemURL" : "step://objecttype?id=BMECat_OT_Schema",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Illustration",
+    "itemURL" : "step://objecttype?id=Illustration",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Primary Product Classification",
+    "itemURL" : "step://objecttype?id=Product+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"Context2\"  WorkspaceID=\"Main\"  ExportTime=\"2024-02-07 12:29:15\"    UseContextLocale=\"false\">\n\n  <DimensionList>\n    <Dimension ID=\"Language\">\n      <Name QualifierID=\"Qualifier root\">Language</Name>\n      <DimensionPoint ID=\"std.lang.all\" DictionaryID=\"en_US\">\n        <Name QualifierID=\"Qualifier root\">Language Root</Name>\n      </DimensionPoint>\n    </Dimension>\n  </DimensionList>\n\n  <Qualifiers>\n    <Qualifier ID=\"en-US\">\n      <DimensionPointLink DimensionPointID=\"en-US\"/>\n    </Qualifier>\n  </Qualifiers>\n\n  <UserTypes>\n    <UserType ID=\"arme_root\" ManuallySorted=\"false\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"false\" ReferenceTargetLockPolicy=\"Strict\">\n      <Name QualifierID=\"Qualifier root\">arme_root</Name>\n      <UserTypeLink UserTypeID=\"Product user-type root\"/>\n    </UserType>\n    <UserType ID=\"BMECat_OT_Template\" ReferenceTargetLockPolicy=\"Strict\">\n      <Name QualifierID=\"Qualifier root\">BMEcat Template</Name>\n      <UserTypeLink UserTypeID=\"Asset user-type root\"/>\n    </UserType>\n    <UserType ID=\"arme_Product\" ManuallySorted=\"false\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"false\" ReferenceTargetLockPolicy=\"Strict\">\n      <Name QualifierID=\"Qualifier root\">arme_Product</Name>\n      <UserTypeLink UserTypeID=\"arme_Family\"/>\n    </UserType>\n    <UserType ID=\"Product user-type root\" ManuallySorted=\"true\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"true\" ReferenceTargetLockPolicy=\"Strict\">\n      <Name QualifierID=\"Qualifier root\">Primary Product Classification</Name>\n      <Icon>H4sIAAAAAAAAAH1UXWgcVRQeUwmhNv48KNQ+OJ1CaYp3Z+7Mzs6P2dZkZtcudJO42WKkKXjnzp3smMxPZybdSRBqGy0p+CQEa6o+tC+2oAXxpRrQVkEt7UMfSqUKin9gFeJDW7L0xTvpbixScmHm3nPu+b5z5vzM8ZGhF3o3Pr2RYZjeyh6zRvdH6fNITzd9D7+5ZNFtc1IaS0YDJ2miiDADdmARtuKhCVIjyJ45+B3pZ5gNx9z6WDJW3avjwMuhzCaXeiGTrf7daYjwJElYi0y4fpFb/vwLjnXtIveSXBWqoUEa7p7ZiIzODtXx7CTWbG73LrY/1SmBRxLEpt6UH+tpkVvl1ek5U/Mcu2qSTBa5e0GNVUdYI4gIK+cKAENJZRUtB2VNFfPPsqIAC7yg8TAPBKgLmi5Atr046i2yHb1mltu+qFTkGkkS6jzfbDZzTSkXRBM81DSNF0ReFAG1APGMn6AU+PG2DoNJYhy5YeIGPpvJyAqmkyLHdT7BC6vVNWI/bieKpoxPUcjDnMB7Ht+xjpMacda3juszIeFrJA6mI0zr4Wy7z9X60MyQRqMPRy4tCpoyAzztET+pmEWO3uRs19aRKmANEghE20IgL1sOsCxRAVhT8qqILRuqWofnQXjJLOdhwRAVc1CBsKQMlGTZUEqGYUA4KEkDHWzFjxPkY9LBuv9h4bpY3YgISoKoHgRTnS4YaQRJEDeCkDWMrOoKu6OKsOtnyr6sUO14SeQeInY5Cjx2NdO6+4AoYAFCR7Q1gB1FAHmEbaAJsgMkG2JLk2RVsmyujbfvy8C9TqUayhF2AtIFXEAFy3EAonQAQgUBq2BhYCmq4yiyohUUi+NpiPz/mqmjoh2aHddGgwprw0V8OlERHR3xuZ++p2P3WcUcqKc3pl488sRFoeeN8Tv/jJsfzaX6/LW9p07+ph/3j24Ft7YY5765feTwB5/Mj/DH/jq9/9vlrxdb6fnr3c6dU2+/Hwzrf88P3f155daTi7sGf31cvfk8OndFHT/R9857r19++NKH5obzfTvfvf7p5vmF/MrilbMnDpx5bctTN+Sb+y9MMwvgl6U/unq2f7l108niq5PLK0s7/5w7+9DvVx8r3y7/sG9OOtRzufurgz+e7motNFrPbG813+p9+cLhrk1Ma4d7Ud43ejf7e1RKQ+bHg68c/Rf/BCHaqgQAAA==</Icon>\n      <UserTypeLink UserTypeID=\"Product user-type root\"/>\n    </UserType>\n    <UserType ID=\"arme_Family\" ManuallySorted=\"false\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"false\" ReferenceTargetLockPolicy=\"Strict\">\n      <Name QualifierID=\"Qualifier root\">arme_Family</Name>\n      <UserTypeLink UserTypeID=\"arme_root\"/>\n    </UserType>\n    <UserType ID=\"Binary\" ReferenceTargetLockPolicy=\"Strict\">\n      <Name QualifierID=\"Qualifier root\">Binary</Name>\n      <UserTypeLink UserTypeID=\"Asset user-type root\"/>\n      <MIMEType>application/octet-stream</MIMEType>\n    </UserType>\n    <UserType ID=\"DEFAULT\" ReferenceTargetLockPolicy=\"Strict\">\n      <Name QualifierID=\"Qualifier root\">Unknown / Undefined</Name>\n      <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGD4zgACaTPPzASCM/+BcOb/mWln0v7//5+Wlvb/TNqZmcb/Z878f+YMUAXDf6BShjNnwJyZQHlj45nGQHAGiIAazjCMglEw5IDiTxZGBgY+Bh0QB5QnGDiKGWQ5ZDQCGBiaONi5BAoeJji18ujzSDwQeHiIW0g8605F4CMXRnanLpsGB4eGTg1HOYYDRipM7GqBfAycDilnpxsG98V4bnpwst8s+1vLz+JlvhP1a5nuWk55ETRPj/OYSMOCVVdXBfmzcRz4tNBpneheqxevTBUYrAFaPp1nlgMAAA==</Icon>\n      <UserTypeLink UserTypeID=\"Asset user-type root\"/>\n      <MIMEType>text/plain;charset=UTF-8</MIMEType>\n    </UserType>\n    <UserType ID=\"ProductVideo\" ReferenceTargetLockPolicy=\"Strict\" IDPattern=\"[id]\">\n      <Name QualifierID=\"Qualifier root\">Product Video</Name>\n      <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGD4voBh1qxZixcvPn369Jw5c1atWnXw4MEDBw7s379/+fLlCxcunDFjxqlTpyQlJXV0dGbPnm1kZKSmpiYtLS0lJSUmLn7y5Mk9e/ZoaGgcP358yZIlK1asUFJSFuDnNzMzW7Rokbm5uaGhoYODg4KCgqKi4ty5cyUkJGxsbDZu3Kivr+/o6GhgaODq6qqiquLs4sLHy6unr2duZtbV1dXZ2WlpaSkqKgaEW7du9fBw19XVbW9vLy4u5uHhFhYWWrly5YcPH6ZOnbpmzRojY+Pa2trdu3evX79eTExs5syZxiYmIiIiQkKCrS0tVVXVIiLCgoKCtnZ2O3bs4Ofn5+Pj5+TkVFdX4+HhERIS0tLSlpeXl5OXt7aylpWRLSkpkZGR4eXl4eXl/fz5s7mF+YQJE/R0dfX09Ldv366ooGhra2tgYCApIWFibCwuIW5tY71ly5YjR44sXbr048eP0lLSJiamlpYWWppaKsrKsrKy6hrqJqamVlZWMjLSs2bN1tbWlpWTk5GRFRAQ6O/vt7Wx0dPTXbZs2eTJkw8fPqyiolJWVtbY1FRRUSEsIqxvYGBnby8sJMTJyQUECxYsYGdnV1FRFRIUFBMFgfr6ekNDo0+fPrW0tAiLiDg7OZmYmFhYWsjJyc2bN6+3t/c/GDCMAtxA8ScLIwPDAgYdEAeUJxg4/jOIahQYJDgsb2Z35ykIcGHUYJhvVev1QZOBjYfRSuXFkgvB6u6MtxROOCxQ4WdpZMr5cuWhoLKetNjFhAPqLAutqo6wfGhR6OLTmNjH0FHgysxiaW6X8sFlQeB0uw61GiYFpkmtbJ09fz6YpJwS1pp0rmaW1tKubnZ9n4qoy00nJ5nkH/Pj/czoN0dq3rGcG44tjmI74z4t+LnoWKe6oofaxAPJqWtU5fkt7mQGHQxm9RFWeSP48WTvfJEys7+MhQcuN0rybGuZcVn5GKeC3AaNUykHJjMKCVpI7mVZIcQumRqwQiMhmknWSHvdrItPFrJwiJl1yEuUNB5qYmXaxB3h8JBJ+tGCogxBzRIPTwGvtkkPGh5y9ij4MzIyWAMARC3ubjQEAAA=</Icon>\n      <UserTypeLink UserTypeID=\"Asset user-type root\"/>\n      <MIMEType>video/avi</MIMEType>\n      <MIMEType>video/mpeg</MIMEType>\n      <MIMEType>video/quicktime</MIMEType>\n      <MIMEType>video/mp4</MIMEType>\n    </UserType>\n    <UserType ID=\"AutoClassificationRuleSet\" ReferenceTargetLockPolicy=\"Strict\">\n      <Name QualifierID=\"Qualifier root\">Auto Classification Rule Set</Name>\n      <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGD4zgABLQwMcxgY/hsmzzFM/m8IZLa0GM75b3juv+H//y0tLUvPfT927Nj379////7w//9/hlEwCoYLUPzJwsjAwM+gA+KA8gQDRyODvI6Ex4YHB9g5WJ0iTmxIbGblFDdJecHQ1MwmoKC15cTGJFcGBUaNkgMLHjUys+pMa1EIUmJmFOBzCGhQYGBhVI3et6XCwZGJmVHrUQ5nYjojCxvbjSMvGzROdjEuWvVnx8Xk431+nBl3d01ddWR1mG3a01NXXx/akDC3aa+W0ZLb2xWZmRisAZLhV3ekAwAA</Icon>\n      <UserTypeLink UserTypeID=\"Asset user-type root\"/>\n    </UserType>\n    <UserType ID=\"stibo.ExportManagerConfig\" ReferenceTargetLockPolicy=\"Strict\">\n      <Name QualifierID=\"Qualifier root\">Export Manager Configuration</Name>\n      <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGD4zgABLQwMcxgY/hsmzzFM/m8IZLa0GM75b3juv+H//y0tLUvPfT927Nj379////7w//9/hlEwCoYLUPzJwsjAwM+gA+KA8gQDRyODvI6Ex4YHB9g5WJ0iTmxIbGblFDdJecHQ1MwmoKC15cTGJFcGBUaNkgMLHjUys+pMa1EIUmJmFOBzCGhQYGBhVI3et6XCwZGJmVHrUQ5nYjojCxvbjSMvGzROdjEuWvVnx8Xk431+nBl3d01ddWR1mG3a01NXXx/akDC3aa+W0ZLb2xWZmRisAZLhV3ekAwAA</Icon>\n      <UserTypeLink UserTypeID=\"Asset user-type root\"/>\n    </UserType>\n    <UserType ID=\"stibo.ImportManagerConfig\" ReferenceTargetLockPolicy=\"Strict\">\n      <Name QualifierID=\"Qualifier root\">Import Manager Configuration</Name>\n      <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGD4zgABLQwMcxgY/hsmzzFM/m8IZLa0GM75b3juv+H//y0tLUvPfT927Nj379////7w//9/hlEwCoYLUPzJwsjAwM+gA+KA8gQDRyODvI6Ex4YHB9g5WJ0iTmxIbGblFDdJecHQ1MwmoKC15cTGJFcGBUaNkgMLHjUys+pMa1EIUmJmFOBzCGhQYGBhVI3et6XCwZGJmVHrUQ5nYjojCxvbjSMvGzROdjEuWvVnx8Xk431+nBl3d01ddWR1mG3a01NXXx/akDC3aa+W0ZLb2xWZmRisAZLhV3ekAwAA</Icon>\n      <UserTypeLink UserTypeID=\"Asset user-type root\"/>\n    </UserType>\n    <UserType ID=\"stibo.ValueSubstitutionTransConfig\" ReferenceTargetLockPolicy=\"Strict\">\n      <Name QualifierID=\"Qualifier root\">Transformation Lookup Table</Name>\n      <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGD4zgABLQwMcxgY/hsmzzFM/m8IZLa0GM75b3juv+H//y0tLUvPfT927Nj379////7w//9/hlEwCoYLUPzJwsjAwM+gA+KA8gQDRyODvI6Ex4YHB9g5WJ0iTmxIbGblFDdJecHQ1MwmoKC15cTGJFcGBUaNkgMLHjUys+pMa1EIUmJmFOBzCGhQYGBhVI3et6XCwZGJmVHrUQ5nYjojCxvbjSMvGzROdjEuWvVnx8Xk431+nBl3d01ddWR1mG3a01NXXx/akDC3aa+W0ZLb2xWZmRisAZLhV3ekAwAA</Icon>\n      <UserTypeLink UserTypeID=\"Asset user-type root\"/>\n    </UserType>\n    <UserType ID=\"Configuration\" ReferenceTargetLockPolicy=\"Strict\">\n      <Name QualifierID=\"Qualifier root\">Configuration</Name>\n      <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGD4zgABLQwMcxgY/hsmzzFM/m8IZLa0GM75b3juv+H//y0tLUvPfT927Nj379////7w//9/hlEwCoYLUPzJwsjAwM+gA+KA8gQDRyODvI6Ex4YHB9g5WJ0iTmxIbGblFDdJecHQ1MwmoKC15cTGJFcGBUaNkgMLHjUys+pMa1EIUmJmFOBzCGhQYGBhVI3et6XCwZGJmVHrUQ5nYjojCxvbjSMvGzROdjEuWvVnx8Xk431+nBl3d01ddWR1mG3a01NXXx/akDC3aa+W0ZLb2xWZmRisAZLhV3ekAwAA</Icon>\n      <UserTypeLink UserTypeID=\"Asset user-type root\"/>\n      <MIMEType>application/xml</MIMEType>\n    </UserType>\n    <UserType ID=\"stibo.TranslationConfig\" ReferenceTargetLockPolicy=\"Strict\">\n      <Name QualifierID=\"Qualifier root\">Translation Configuration</Name>\n      <UserTypeLink UserTypeID=\"Asset user-type root\"/>\n    </UserType>\n    <UserType ID=\"stibo.ImageConversionConfig\" ReferenceTargetLockPolicy=\"Strict\">\n      <Name QualifierID=\"Qualifier root\">Image Conversion Configuration</Name>\n      <UserTypeLink UserTypeID=\"Asset user-type root\"/>\n    </UserType>\n    <UserType ID=\"stibo.normalattribute\">\n      <Name QualifierID=\"Qualifier root\">Attribute</Name>\n      <DimensionLink DimensionID=\"Language\"/>\n      <UserTypeLink UserTypeID=\"stibo.grouping attribute\"/>\n    </UserType>\n    <UserType ID=\"stibo.BulkUpdateConfig\" ReferenceTargetLockPolicy=\"Strict\">\n      <Name QualifierID=\"Qualifier root\">Bulk Update Configuration</Name>\n      <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGD4zgABLQwMcxgY/hsmzzFM/m8IZLa0GM75b3juv+H//y0tLUvPfT927Nj379////7w//9/hlEwCoYLUPzJwsjAwM+gA+KA8gQDRyODvI6Ex4YHB9g5WJ0iTmxIbGblFDdJecHQ1MwmoKC15cTGJFcGBUaNkgMLHjUys+pMa1EIUmJmFOBzCGhQYGBhVI3et6XCwZGJmVHrUQ5nYjojCxvbjSMvGzROdjEuWvVnx8Xk431+nBl3d01ddWR1mG3a01NXXx/akDC3aa+W0ZLb2xWZmRisAZLhV3ekAwAA</Icon>\n      <UserTypeLink UserTypeID=\"Asset user-type root\"/>\n    </UserType>\n    <UserType ID=\"Asset user-type root\" ReferenceTargetLockPolicy=\"Strict\">\n      <Name QualifierID=\"Qualifier root\">Assets</Name>\n      <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGD4zgACaTPPzASCM/+BcOb/mWln0v7//5+Wlvb/TNqZmcb/Z878f+YMUAXDf6BShjNnwJyZQHlj45nGQHAGiIAazjCMglEw5IDiTxZGBgY+Bh0QB5QnGDiKGWQ5ZDQCGBiaONi5BAoeJji18ujzSDwQeHiIW0g8605F4CMXRnanLpsGB4eGTg1HOYYDRipM7GqBfAycDilnpxsG98V4bnpwst8s+1vLz+JlvhP1a5nuWk55ETRPj/OYSMOCVVdXBfmzcRz4tNBpneheqxevTBUYrAFaPp1nlgMAAA==</Icon>\n      <UserTypeLink UserTypeID=\"Asset user-type root\"/>\n    </UserType>\n    <UserType ID=\"Illustration\" ReferenceTargetLockPolicy=\"Strict\" IDPattern=\"[id]\">\n      <Name QualifierID=\"Qualifier root\">Illustration</Name>\n      <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGC4asKwePHiOXPmrFq16vTp08uXL9+/f//ChQtnzJhx8ODBU6dOHThwYMmSJXPnzj158uSKFSsWLVp0/Pjx2bNn79mzZ+nSpRs3bpw1a1ZjU9Pu3bvb29vXr1+/Zs2aCRMmrFy5sr6+vqKiorWlpba2dseOHdu3b588efKCBQsOHz5cXFxcUlJSVVXd1dW1bNmysrKyLVu2zJw5c+vWrUeOHJk3b15vb295efl/MGAgBBR/sjAyMJgw6IA4ID8xsE05cFhRiONAn7ubwiWrC1rGN84YMOuINbQzLus56NHAeVBRo5hD64DZtxk7738wV3CbcfLdD+s7gsI3Ugv1G/KkDCXLmhqbRQx1yoybKiuM9QyV+mcUNCgais9onmUsZCg0oWFBfgOrIWvexMJ+LkOu/ImTGjg2b9i9k1VVgJeTk/kIMyevgP5OEzV1bTkNBVkxeQlNQ2llQ0cGawCTodDQdwEAAA==</Icon>\n      <UserTypeLink UserTypeID=\"Asset user-type root\"/>\n      <MIMEType>application/illustrator</MIMEType>\n      <MIMEType>application/postscript</MIMEType>\n    </UserType>\n    <UserType ID=\"InstallationManual\" ReferenceTargetLockPolicy=\"Strict\" IDPattern=\"[id]\">\n      <Name QualifierID=\"Qualifier root\">Installation Manual</Name>\n      <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGBYxMpQXl7eMPMCg2TA////GYwWgEgwUPzJwsjAwMqgA+KA1DIwe0ao3NFT1WJs28vsICn2Q0FDU7Y1tmFLicvrXdE/z3m7bDDJ4da5N03wJq84w6SYuU/Wmr38O2/j0c+pMX4TzzDpL5/MsWNt7/ePGioMDNYAXifKQoQAAAA=</Icon>\n      <UserTypeLink UserTypeID=\"Asset user-type root\"/>\n      <MIMEType>text/html</MIMEType>\n      <MIMEType>application/pdf</MIMEType>\n      <MIMEType>application/msword</MIMEType>\n      <MIMEType>text/rtf</MIMEType>\n    </UserType>\n    <UserType ID=\"Icon\" ReferenceTargetLockPolicy=\"Strict\" IDPattern=\"[id]\">\n      <Name QualifierID=\"Qualifier root\">Icon</Name>\n      <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGC4asKwePHiOXPmrFq16vTp0/v371+4cOHy5ctnzJhx4MCBU6dOHTx48OTJk4sWLTp+/Pjs2bNXrFixZ8+eJUuWzJ07d/v27TNnziwuLq6qql6/fv3WrVu7urpmzZo1YcKEyZMnV1RUtLa0rFmzpqSkZNmyZUuXLl2wYMGRI0cam5rq6+tXrlxZVla2ZcuWHTt27N69u729vba2duPGjYcPH543b15vb+9/B4b/YMBACCj+ZGFkYDBh0AFxQH5iYOs/cPigIMeBPnfPA46WF0yMb6wxYHZRYnBjXNZz0I1h4kNFjfk8igfMjs3Yef+DuUJax+l3H919Puw7nVaXL28oXlvRmKdnqJlXV9+XJ2Eo3Fs41VjLULu3cYKxgKFAW39FHoshy+KGpcYchhxla/K41k/btoVFn5ebk5N5PzMnN6/KFhNRBQ1ZMV01VTkdSUNpGUNHBmsA7BaO3HIBAAA=</Icon>\n      <UserTypeLink UserTypeID=\"Asset user-type root\"/>\n      <MIMEType>image/tiff</MIMEType>\n      <MIMEType>application/postscript</MIMEType>\n      <MIMEType>image/tif</MIMEType>\n    </UserType>\n    <UserType ID=\"Logo\" ReferenceTargetLockPolicy=\"Strict\" IDPattern=\"[id]\">\n      <Name QualifierID=\"Qualifier root\">Logo</Name>\n      <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGC4asVw+vTpxYsXz5kzZ9WqVQsXLpwxY8aSJUtOnTq1fPny3bt3Hz9+vLe3d9GiRXPnzp01a9b+/fsPHDhw8uTJ2bNn7927d/LkyQcPHty+ffvKlSvnz5+3YvmKI0eOHD58uLi4uLWlZePGTVu3bpk9Z86CBQvq6+urqqorKiqWLVu2bt26VatXt7e379ixY/+B/Vu2bFm/fn1JScmKFSu6urpmzpzZ2NS0Z8+esrKy2traCRMmLF26dN68ef8dGP6DAQMqUPzJwsjAYMWgA+KA/MTA1nTAyVFJ4E7f8TYHJmGrou0yiuIGEkw8h3xf7mhlMmvJdtin4MWo2zExe/f9fB4mv3JhNssY2byEp9/zJbXrG3LVxeotuiq7uyzUODsnVU2RM+rsnWkhz99QlacpUNqXz7moNU+YX5pLkJ2dYSMDuyCXlKiWlYyusYqyiZKhrIY+t6kItyODNQBj5evwZQEAAA==</Icon>\n      <UserTypeLink UserTypeID=\"Asset user-type root\"/>\n    </UserType>\n    <UserType ID=\"XML\" ReferenceTargetLockPolicy=\"Strict\">\n      <Name QualifierID=\"Qualifier root\">XML File</Name>\n      <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGD4zgABLQwMcxgY/hsmzzFM/m8IZLa0GM75b3juv+H//y0tLUvPfT927Nj379////7w//9/hlEwCoYLUPzJwsjAwM+gA+KA8gQDRyODvI6Ex4YHB9g5WJ0iTmxIbGblFDdJecHQ1MwmoKC15cTGJFcGBUaNkgMLHjUys+pMa1EIUmJmFOBzCGhQYGBhVI3et6XCwZGJmVHrUQ5nYjojCxvbjSMvGzROdjEuWvVnx8Xk431+nBl3d01ddWR1mG3a01NXXx/akDC3aa+W0ZLb2xWZmRisAZLhV3ekAwAA</Icon>\n      <UserTypeLink UserTypeID=\"Asset user-type root\"/>\n      <MIMEType>application/xml</MIMEType>\n    </UserType>\n    <UserType ID=\"BMECat_OT_Schema\" ReferenceTargetLockPolicy=\"Strict\">\n      <Name QualifierID=\"Qualifier root\">BMEcat Schema</Name>\n      <UserTypeLink UserTypeID=\"Asset user-type root\"/>\n    </UserType>\n    <UserType ID=\"BusinessRuleExample\" ReferenceTargetLockPolicy=\"Strict\">\n      <Name QualifierID=\"Qualifier root\">Business Rule Example</Name>\n      <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGD4zgACzLya7KqVHFo9XKYbeJ3viwd89ir/xvCfIbLpe3Ln99q5P+vn/2xc8LN50c/WxT/bl/7sXPaze8XP3pU/+1f9nLD615HLf45f/Xvy2t/TN/6evfn3/O2/F+/8vXzv79X7f68//Hvz0d9bj//defrv3rN/D178e/Ty35PX/77//P/7z/+///4zjIJRMKBA8ScLIwMDB4MOiAPKEwwckxkEFRgcNixwbORgXxZxQqC1lYNBSMvEceOjFmFOJSWWCYuSXFlZOTguWFxM7uRmY2NROHmRpXO6gXvPigNGrj4zjZwDEjqZlp8XVFD7ICK4SINDQH6S050OJpf25QHznR7MvNLMvkLGwubBzcTm6+ulTSwezPy6mo1X0sjkgeS3nCieAvENUy4s0GNm4/6kZ3Hg0oL7TRxMTAzWAKAqYX62AwAA</Icon>\n      <UserTypeLink UserTypeID=\"Asset user-type root\"/>\n    </UserType>\n    <UserType ID=\"ProductImage\" ReferenceTargetLockPolicy=\"Strict\" IDPattern=\"[id]\">\n      <Name QualifierID=\"Qualifier root\">Product Image</Name>\n      <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGC4asawePHiOXPmrFq16vTp0/v371+4cOHy5ctnzJhx4MCBU6dOHTx48OTJk4sWLTp+/Pjs2bNXrFixZ8+eJUuWzJ07d/v27TNnziwuLq6qql6/fv3WrVu7urpmzZo1YcKEyZMnV1RUtLa0rFmzpqSkZNmyZUuXLl2wYMGRI0cam5rq6+tXrlxZVla2ZcuWHTt27N69u729vba2duPGjYcPH543bx6DZEDDzAu9vb0MRgv+gwEDbqD4k4WRgcGMQQfEAfmJgW3SgcMHBTkO9Ll7HnC0vGFiGrE2gNlFicGNcdmcg24MEx8qasznUTxQdmzFzvsfzBPSCi6n/LD5Yyi8I7m8siJf3li8vsGkqztPz1izo3tSnoSx8MRJXXlaxtozZuYJGAvMn2zKYsyS37nAlMOYo2DmLFOuDYU78rax6PNyc3IyH2Lm5OZV2WYmqqAhK6arpiqnI2ksLWPsyGANAKPLvvh1AQAA</Icon>\n      <UserTypeLink UserTypeID=\"Asset user-type root\"/>\n      <MIMEType>application/octet-stream</MIMEType>\n    </UserType>\n    <UserType ID=\"MSDS\" ReferenceTargetLockPolicy=\"Strict\" IDPattern=\"[id]\">\n      <Name QualifierID=\"Qualifier root\">MSDS</Name>\n      <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGBYxM5wfy7D/0sM+/fvZzBa8J+BYc6cOf/BQPEnCyMDAzuDDgMQgNQyMHtH7LoTruallFp5dcJc/TnS6YmBGX33DWa4CLjMW7hq4Wupezbbt81+zeyoz9DxksVDmsE9SHG+i8TJDzV1M8JXbRVarbD5Bo/fm8wZ4u0sDNYAR51Xq4YAAAA=</Icon>\n      <UserTypeLink UserTypeID=\"Asset user-type root\"/>\n    </UserType>\n    <UserType ID=\"OwnersManual\" ReferenceTargetLockPolicy=\"Strict\" IDPattern=\"[id]\">\n      <Name QualifierID=\"Qualifier root\">Owners Manual</Name>\n      <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGBYxMpQXl4+5f59kfj4////a+zbByQZwEDxJwsjAwMrgw6IA1LLwOwZoXJHT1WLsW0vs4Ok2A8FDU3Z1tiGLSUur3dF/zzn7bLBJIdb5940wZu84gyTYuY+WWv28u+8jUc/p8b4TTzDpL98MseOtb3fP2qoMDBYAwD2PQCfhAAAAA==</Icon>\n      <UserTypeLink UserTypeID=\"Asset user-type root\"/>\n      <MIMEType>text/html</MIMEType>\n      <MIMEType>application/pdf</MIMEType>\n      <MIMEType>application/msword</MIMEType>\n      <MIMEType>text/rtf</MIMEType>\n    </UserType>\n  </UserTypes>\n\n  <AttributeGroupList>\n\n  <AttributeGroup ID=\"arme_attr\" ShowInWorkbench=\"true\" ManuallySorted=\"false\" ParentID=\"Attribute group root\">\n    <Name QualifierID=\"en-US\">arme_attr</Name>\n  </AttributeGroup>\n  </AttributeGroupList>\n\n  <AttributeList>\n\n    <Attribute ID=\"arme_desc2\" MultiValued=\"false\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"true\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"en-US\">arme_desc2</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"arme_attr\"/>\n      <UserTypeLink UserTypeID=\"arme_root\"/>\n      <UserTypeLink UserTypeID=\"BMECat_OT_Template\"/>\n      <UserTypeLink UserTypeID=\"arme_Product\"/>\n      <UserTypeLink UserTypeID=\"arme_Family\"/>\n      <UserTypeLink UserTypeID=\"Binary\"/>\n      <UserTypeLink UserTypeID=\"DEFAULT\"/>\n      <UserTypeLink UserTypeID=\"ProductVideo\"/>\n      <UserTypeLink UserTypeID=\"AutoClassificationRuleSet\"/>\n      <UserTypeLink UserTypeID=\"stibo.ExportManagerConfig\"/>\n      <UserTypeLink UserTypeID=\"stibo.ImportManagerConfig\"/>\n      <UserTypeLink UserTypeID=\"stibo.ValueSubstitutionTransConfig\"/>\n      <UserTypeLink UserTypeID=\"Configuration\"/>\n      <UserTypeLink UserTypeID=\"stibo.TranslationConfig\"/>\n      <UserTypeLink UserTypeID=\"stibo.ImageConversionConfig\"/>\n      <UserTypeLink UserTypeID=\"stibo.BulkUpdateConfig\"/>\n      <UserTypeLink UserTypeID=\"Asset user-type root\"/>\n      <UserTypeLink UserTypeID=\"Illustration\"/>\n      <UserTypeLink UserTypeID=\"InstallationManual\"/>\n      <UserTypeLink UserTypeID=\"Icon\"/>\n      <UserTypeLink UserTypeID=\"Logo\"/>\n      <UserTypeLink UserTypeID=\"XML\"/>\n      <UserTypeLink UserTypeID=\"BMECat_OT_Schema\"/>\n      <UserTypeLink UserTypeID=\"BusinessRuleExample\"/>\n      <UserTypeLink UserTypeID=\"ProductImage\"/>\n      <UserTypeLink UserTypeID=\"MSDS\"/>\n      <UserTypeLink UserTypeID=\"OwnersManual\"/>\n    </Attribute>\n\n    <Attribute ID=\"arme_desc3\" MultiValued=\"false\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"true\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"en-US\">arme_desc3</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"arme_attr\"/>\n      <UserTypeLink UserTypeID=\"arme_root\"/>\n      <UserTypeLink UserTypeID=\"BMECat_OT_Template\"/>\n      <UserTypeLink UserTypeID=\"arme_Product\"/>\n      <UserTypeLink UserTypeID=\"arme_Family\"/>\n      <UserTypeLink UserTypeID=\"Binary\"/>\n      <UserTypeLink UserTypeID=\"DEFAULT\"/>\n      <UserTypeLink UserTypeID=\"ProductVideo\"/>\n      <UserTypeLink UserTypeID=\"AutoClassificationRuleSet\"/>\n      <UserTypeLink UserTypeID=\"stibo.ExportManagerConfig\"/>\n      <UserTypeLink UserTypeID=\"stibo.ImportManagerConfig\"/>\n      <UserTypeLink UserTypeID=\"stibo.ValueSubstitutionTransConfig\"/>\n      <UserTypeLink UserTypeID=\"Configuration\"/>\n      <UserTypeLink UserTypeID=\"stibo.TranslationConfig\"/>\n      <UserTypeLink UserTypeID=\"stibo.ImageConversionConfig\"/>\n      <UserTypeLink UserTypeID=\"stibo.BulkUpdateConfig\"/>\n      <UserTypeLink UserTypeID=\"Asset user-type root\"/>\n      <UserTypeLink UserTypeID=\"Illustration\"/>\n      <UserTypeLink UserTypeID=\"InstallationManual\"/>\n      <UserTypeLink UserTypeID=\"Icon\"/>\n      <UserTypeLink UserTypeID=\"Logo\"/>\n      <UserTypeLink UserTypeID=\"XML\"/>\n      <UserTypeLink UserTypeID=\"BMECat_OT_Schema\"/>\n      <UserTypeLink UserTypeID=\"BusinessRuleExample\"/>\n      <UserTypeLink UserTypeID=\"ProductImage\"/>\n      <UserTypeLink UserTypeID=\"MSDS\"/>\n      <UserTypeLink UserTypeID=\"OwnersManual\"/>\n    </Attribute>\n\n  </AttributeList>\n</STEP-ProductInformation>\n",
+  "signatory" : "AMKP",
+  "comment" : "seal"
+}
